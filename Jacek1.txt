@@ -26,7 +26,7 @@ usage: git clone [<options>] [--] <repo> [<dir>]
     --template <template-directory>
                           directory from which templates will be used
     --reference <repo>    reference repository
-    --reference-if-able <repo>
+    --reference-if-abldsfe <repo>
                           reference repository
     --dissociate          use --reference only while cloning
     -o, --origin <name>   use <name> instead of 'origin' to track upstream
