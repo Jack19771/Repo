@@ -1,0 +1,1308 @@
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ git init D:\GIT
+Initialized empty Git repository in D:/GIT/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --also-filter-submodules
+                          apply partial clone filters to submodules
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ git clone D:\\GIT
+Cloning into 'GIT'...
+warning: You appear to have cloned an empty repository.
+done.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Atrana/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ GIT/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{2802a623-db6a-11ec-837f-010101010000}.TM.blf
+ NTUSER.DAT{2802a623-db6a-11ec-837f-010101010000}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2802a623-db6a-11ec-837f-010101010000}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ my-app/
+ node_modules/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ source/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ whoami
+bysta
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ cd
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~
+$ cd Desktop/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop
+$ git init
+Initialized empty Git repository in C:/Users/bysta/Desktop/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop (master)
+$ cd g
+G9Tracker/           GNCSplash/           git/
+GNC/                 GitHub Desktop.lnk   groupinfra shit.txt
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop (master)
+$ cd git
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git init
+Initialized empty Git repository in C:/Users/bysta/Desktop/git/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+aa/  aa.zip
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        aa.zip
+        aa/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ touch jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+aa/  aa.zip  jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aa.zip
+        new file:   aa/[Content_Types].xml
+        new file:   aa/_rels/.rels
+        new file:   aa/docProps/app.xml
+        new file:   aa/docProps/core.xml
+        new file:   aa/ss.docx
+        new file:   aa/word/_rels/document.xml.rels
+        new file:   aa/word/document.xml
+        new file:   aa/word/fontTable.xml
+        new file:   aa/word/settings.xml
+        new file:   aa/word/styles.xml
+        new file:   aa/word/theme/theme1.xml
+        new file:   aa/word/webSettings.xml
+        new file:   jacek.docx
+        new file:   ~$jacek.docx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git commin -m "Pierwszy commit !"
+git: 'commin' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git commit -m "Pierwszy commit !"
+[master (root-commit) a213245] Pierwszy commit !
+ 15 files changed, 22 insertions(+)
+ create mode 100644 aa.zip
+ create mode 100644 aa/[Content_Types].xml
+ create mode 100644 aa/_rels/.rels
+ create mode 100644 aa/docProps/app.xml
+ create mode 100644 aa/docProps/core.xml
+ create mode 100644 aa/ss.docx
+ create mode 100644 aa/word/_rels/document.xml.rels
+ create mode 100644 aa/word/document.xml
+ create mode 100644 aa/word/fontTable.xml
+ create mode 100644 aa/word/settings.xml
+ create mode 100644 aa/word/styles.xml
+ create mode 100644 aa/word/theme/theme1.xml
+ create mode 100644 aa/word/webSettings.xml
+ create mode 100644 jacek.docx
+ create mode 100644 ~$jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   jacek.docx
+        deleted:    ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git commit -m "drugi commit"
+[master 2b5836d] drugi commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 ~$jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git branch
+* master
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git-checkout -b Odgalezienie
+bash: git-checkout: command not found
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git checkout -b Odgalezienie
+Switched to a new branch 'Odgalezienie'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git branch
+* Odgalezienie
+  master
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git status
+On branch Odgalezienie
+nothing to commit, working tree clean
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git status
+On branch Odgalezienie
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+Switched to branch 'master'
+M       jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   jacek.docx
+        new file:   ~$jacek.docx
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git commit
+[master c5b9804] jacek
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ~$jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ got branch Odgalezienie
+bash: got: command not found
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git branch Odgalezienie
+fatal: a branch named 'Odgalezienie' already exists
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git checkout Odgalezienie
+Unlink of file 'jacek.docx' failed. Should I try again? (y/n) n
+error: unable to unlink old 'jacek.docx': Invalid argument
+Switched to branch 'Odgalezienie'
+M       jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ ls
+aa/  aa.zip  jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        jacek.docx
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        jacek.docx
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git commit
+On branch Odgalezienie
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ ls
+aa/  aa.zip  jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git status
+On branch Odgalezienie
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        jacek.docx
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git commit
+On branch Odgalezienie
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git commit -m "kk"
+On branch Odgalezienie
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jacek.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        jacek.docx
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git commit -m "kk"
+[Odgalezienie 66c3806] kk
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+Switched to branch 'master'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+ aa/   aa.zip   jacek.docx  '~$jacek.docx'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git sta
+stage    stash    status
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git sta
+stage    stash    status
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ~$jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        aa.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ cit commit
+bash: cit: command not found
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git commit
+[master 9c4db35] saxsax
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aa.docx
+ delete mode 100644 ~$jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+aa/  aa.docx  aa.zip  jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git checkout Odgalezienie
+Switched to branch 'Odgalezienie'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ ls
+aa/  aa.zip  jacek.docx
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git branch
+* Odgalezienie
+  master
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ ls
+aa/  aa.zip  jacek.docx  proba.zip
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (Odgalezienie)
+$ git checkout master
+Switched to branch 'master'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+aa/  aa.docx  aa.zip  jacek.docx  proba.zip
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git branch
+  Odgalezienie
+* master
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ ls
+aa/  aa.docx  aa.zip  git/  jacek.zip  proba.zip  rozpakowane/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ touch jacek.txt
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git/
+        jacek.txt
+        jacek.zip
+        proba.zip
+        rozpakowane/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (master)
+$ git checkout -b BB
+Switched to a new branch 'BB'
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ ls
+aa/  aa.docx  aa.zip  git/  jacek.txt  jacek.zip  proba.zip  rozpakowane/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ ls
+aa/  aa.docx  aa.zip  git/  jacek.txt  jacek.zip  proba.zip  rozpakowane/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ git status
+On branch BB
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    jacek.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git/
+        jacek.txt
+        jacek.zip
+        proba.zip
+        rozpakowane/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ git add .
+warning: adding embedded git repository: git
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> git
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached git
+hint:
+hint: See "git help submodule" for more information.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ git status
+On branch BB
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git
+        new file:   jacek.txt
+        renamed:    jacek.docx -> jacek.zip
+        new file:   proba.zip
+        new file:   rozpakowane/[Content_Types].xml
+        new file:   rozpakowane/_rels/.rels
+        new file:   rozpakowane/docProps/app.xml
+        new file:   rozpakowane/docProps/core.xml
+        new file:   rozpakowane/word/_rels/document.xml.rels
+        new file:   rozpakowane/word/document.xml
+        new file:   rozpakowane/word/fontTable.xml
+        new file:   rozpakowane/word/settings.xml
+        new file:   rozpakowane/word/styles.xml
+        new file:   rozpakowane/word/theme/theme1.xml
+        new file:   rozpakowane/word/webSettings.xml
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ git status
+On branch BB
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git
+        new file:   jacek.txt
+        renamed:    jacek.docx -> jacek.zip
+        new file:   proba.zip
+        new file:   rozpakowane/[Content_Types].xml
+        new file:   rozpakowane/_rels/.rels
+        new file:   rozpakowane/docProps/app.xml
+        new file:   rozpakowane/docProps/core.xml
+        new file:   rozpakowane/word/_rels/document.xml.rels
+        new file:   rozpakowane/word/document.xml
+        new file:   rozpakowane/word/fontTable.xml
+        new file:   rozpakowane/word/settings.xml
+        new file:   rozpakowane/word/styles.xml
+        new file:   rozpakowane/word/theme/theme1.xml
+        new file:   rozpakowane/word/webSettings.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        iyg.txt
+
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ ls
+aa/      aa.zip  iyg.txt    jacek.zip  rozpakowane/
+aa.docx  git/    jacek.txt  proba.zip
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ git commit
+[BB 4c49f90] saxsax
+ 15 files changed, 24 insertions(+)
+ create mode 160000 git
+ create mode 100644 jacek.txt
+ rename jacek.docx => jacek.zip (100%)
+ create mode 100644 proba.zip
+ create mode 100644 rozpakowane/[Content_Types].xml
+ create mode 100644 rozpakowane/_rels/.rels
+ create mode 100644 rozpakowane/docProps/app.xml
+ create mode 100644 rozpakowane/docProps/core.xml
+ create mode 100644 rozpakowane/word/_rels/document.xml.rels
+ create mode 100644 rozpakowane/word/document.xml
+ create mode 100644 rozpakowane/word/fontTable.xml
+ create mode 100644 rozpakowane/word/settings.xml
+ create mode 100644 rozpakowane/word/styles.xml
+ create mode 100644 rozpakowane/word/theme/theme1.xml
+ create mode 100644 rozpakowane/word/webSettings.xml
+
+bysta@LAPTOP-SEF7UCLT MINGW64 ~/Desktop/git (BB)
+$ cd C://
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ cit clone C:\Users\bysta\Desktop\git
+bash: cit: command not found
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git clone C:\Users\bysta\Desktop\git
+Cloning into 'UsersbystaDesktopgit'...
+warning: You appear to have cloned an empty repository.
+done.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git clone C:\Users\bysta\Desktop\git.git
+fatal: destination path 'UsersbystaDesktopgit' already exists and is not an empty directory.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git clone C:\Users\bysta\Desktop\git.git
+Cloning into 'UsersbystaDesktopgit'...
+fatal: 'C:UsersbystaDesktopgit.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git clone file://C:\Users\bysta\Desktop\git.git
+Cloning into 'UsersbystaDesktopgit'...
+fatal: 'C:UsersbystaDesktopgit.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git clone file:///C:\Users\bysta\Desktop\git.git
+Cloning into 'UsersbystaDesktopgit'...
+fatal: 'C:UsersbystaDesktopgit.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ ls
+'$Recycle.Bin'/             PerfLogs/                     Users/
+'$WinREAgent'/             'Program Files'/               Windows/
+ Config.Msi/               'Program Files (x86)'/         hiberfil.sys
+'Documents and Settings'@   ProgramData/                  pagefile.sys
+ DumpStack.log.tmp          Python39/                     swapfile.sys
+ Intel/                     Recovery/
+ MSOCache/                 'System Volume Information'/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ cd C://
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git init
+Initialized empty Git repository in C:/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git init JJ
+Initialized empty Git repository in C:/JJ/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git add .
+fatal: unsafe repository ('C:/' is owned by someone else)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ git branch
+fatal: unsafe repository ('C:/' is owned by someone else)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ cd D://repo
+bash: cd: D://repo: No such file or directory
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /c
+$ cd D://
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d
+$ mkdir Repo
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d
+$ cd Repo/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo
+$ git init
+Initialized empty Git repository in D:/Repo/.git/
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo (master)
+$ git add .
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo (master)
+$ touch Jacek.txt
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Jacek.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo (master)
+$ ls
+Jacek.txt
+
+bysta@LAPTOP-SEF7UCLT MINGW64 /d/Repo (master)
+$ git
