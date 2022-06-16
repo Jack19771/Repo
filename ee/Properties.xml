@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<!--Car List-->
-<Cars Owner="Jay Leno">
-	<Car VIN="123567891">
-		<Make>Ford</Make>
-		<Model>Taurus</Model>
-		<Year>2012</Year>
-	</Car>
-	<Car VIN="123555567891">
+<!--EDMS Properties-->
+<File Name="Jay Leno">
+	<Dates Created="123567891">
+		<CreatedBy>123324</CreatedBy>
+		<Modified>21321321</Modified>
+		<ModifiedBy>2043212</ModifiedBy>
+	</Dates>
+	<File VIN="123555567891">
 		<Make>BWM</Make>
 		<Model>328i</Model>
 		<Year>2015</Year>
-	</Car>
-</Cars>
+	</File>
+</File>
