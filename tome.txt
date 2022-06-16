@@ -12,8 +12,8 @@ usage: git clone [<options>] [--] <repo> [<dir>]
     -v, --verbose         be more verbose
     -q, --quiet           be more quiet
     --progress            force progress reporting
-    --reject-shallow      don't clone shallow repository
-    -n, --no-checkout     don't create a checkout
+    --reject-shallow      don't clone shallow repositoryssacsacsacaac
+    -n, --no-checkout     don't create a checkoutsacsacsa
     --bare                create a bare repository
     --mirror              create a mirror repository (implies bare)
     -l, --local           to clone from a local repository
