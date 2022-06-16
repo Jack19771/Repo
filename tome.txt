@@ -1,5 +1,5 @@
-scsacsacsacassacsatrgrerehrehrehre
-bysta@LAPTOP-SEF7UCLT MINGW64 ~
+scsacsacsacassacsagrewgewgewgew
+bysta@LAPTOP-SEF7UCLT MINGWr64 ~
 $ git init D:\GIT
 Initialized empty Git repository in D:/GIT/.git/
 
