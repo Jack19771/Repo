@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--EDMS Properties, Written by Jacek Niewiadomski, CGI 2022-->
+<File Extension="xlsx">
+	<Dates Created="123567891">
+		<CreatedBy>123324</CreatedBy>
+		<Modified>21321321</Modified>
+		<ModifiedBy>2043212</ModifiedBy>
+	</Dates>
+	<File VIN="123555567891">
+		<Make>BWM</Make>
+		<Model>328i</Model>
+		<Year>2015</Year>
+	</File>
+</File>
